@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>叶绿素b的博客</title>
+  
+  
+  <link href="http://yebingiscn.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://yebingiscn.github.io/"/>
+  <updated>2021-03-08T14:38:42.718Z</updated>
+  <id>http://yebingiscn.github.io/</id>
+  
+  <author>
+    <name>叶绿素b</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++</title>
+    <link href="http://yebingiscn.github.io/2021/02/24/Cpp%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0/"/>
+    <id>http://yebingiscn.github.io/2021/02/24/Cpp%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0/</id>
+    <published>2021-02-24T04:43:35.000Z</published>
+    <updated>2021-03-08T14:38:42.718Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>//1.用代码实现从1+2*3/4的运算过程及结果，并打印//2.用代码实现变量a和变量b值的交换，并打印最终a和b的值//5.随意输入两个数，比较第一个数和第二个数的大小并打印。//6.随意输入一个数，判断这个数是奇数还是偶数，并打印。//7.判断一个数字是否能被5和6同时整除，并打印。//8.输入一个0-100的分数，如果不是0-100之间，打印分数无效，根据分数等级打印出“不及格（0-59）”“及格（60-79）”“优秀（80-100）”//9.随意输入三个不相同的数字，求出三个数中的最小值并打印。//10.使用while循环打印出1-100中3的倍数。//11.计算1+2+3+4+...+100的总和并打印。//12.编一个程序，输出1-100中能够整除3但不能整除5的数，并统计有多少个这样的数。//13.输入1-12随意一个数判断是什么季节并打印。//15.编一个程序，求出1-6000之间能够满足“用3除余2，用5除余3，用7除余2”的数，要求每行输出5个数。这上面都太简单了，不写了/*3.在不使用第三方变量的情况下，用代码实现变量a和变量b值的交换，并打印。a = a + b;b = a - b;a = a - b;cout &lt;&lt; a &lt;&lt; &quot; &quot; &lt;&lt; b &lt;&lt; endl;//4.随意输入一个0-1000的数字，并使用代码算出各个位上的数字的和，并打印int a;cin &gt;&gt; a;if (a &gt; 0 &amp;&amp; a &lt; 1000){    int sum = 0, b=0, c=0, d=0;    if (a &gt; 100)    {        b = a % 100;        cout &lt;&lt; b &lt;&lt; endl;    }}else cout &lt;&lt; &quot;错误&quot; &lt;&lt; endl;</code></pre><p>//14.国王向大臣许诺，64个格子中放米，第一个格子放1粒，第二个格子放2粒，第三个格子放4粒，最终国王的诺言能实现吗？打印过程<br>这个还行<br>//16.编一个程序，求出1！+2！+…+n!<br>for (int i = a; i &gt; 1; i–)<br>    {<br>        while (a &gt; 1)<br>        {<br>            b = a * (a - 1);<br>            c = b + c;<br>            a–;<br>        }<br>        a = i;<br>        a–;<br>    }<br>//17.编一个程序，输入8个数，要求找出最大数和次大数。</p><p>//18.编一个程序，利用for语句，打印一个等腰三角形，顶点在屏幕中线上，行从键盘输入。</p><p>//19.编一个程序，找出1-99之间所有的同构数，同构数是：它出现在平方数的右边。</p><p>//20.遍一个程序，输入十个数，用冒泡排序方法按降序输出。<br>for(int i = 1; i &lt; n; i++)<br>    for(int j = n-1; j &gt;= I; j++)<br>    {<br>        t = R[j];<br>        R[j] = R[j+1];<br>        R[j+1] = t;<br>    }</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;//1.用代码实现从1+2*3/4的运算过程及结果，并打印
+//2.用代码实现变量a和变量b值的交换，并打印最终a和b的值
+//5.随意输入两个数，比较第一个数和第二个数的大小并打印。
+//6.随意输入一个数，判断这个数是奇数还是偶数，并打印。
+//7.判断</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C++时间暂停语句与数据结构</title>
+    <link href="http://yebingiscn.github.io/2020/09/10/cpp/"/>
+    <id>http://yebingiscn.github.io/2020/09/10/cpp/</id>
+    <published>2020-09-10T12:39:53.000Z</published>
+    <updated>2020-11-20T15:59:13.258Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>最近在学数据结构，对时间频度和时间复杂度无力吐槽，现在讲到了顺序表。顺序表之类的还是配合指针感觉会比较香。1.时间复杂度时间复杂度只学了一个for函数的，总的来说就是有几个for循环就是O(N)的几次方，如果参加大学生程序设计大赛那估计要学一下其他的循环比如说while循环。学完之后，我觉得要重新学一下其他的循环，复习一下2.顺序表，没什么好说的学好指针3.C++程序暂停我目前学了两种方法1.system(&quot;pause&quot;)实现了以后会暂停，要按Enter键才能下一步2.sleep函数要有一个头文件{% codeblock %}include&lt;windows.h&gt;然后要写的里面写sleep函数比如说Sleep(time)//S要大写，time里面写数字，1就是1毫秒{% codeblock %}</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;最近在学数据结构，对时间频度和时间复杂度无力吐槽，现在讲到了顺序表。顺序表之类的还是配合指针感觉会比较香。
+1.时间复杂度
+时间复杂度只学了一个for函数的，总的来说就是有几个for循环就是O(N)的几次方，如果参加大学生程序设计大赛那估计要学一下其他的循环</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo命令</title>
+    <link href="http://yebingiscn.github.io/2020/09/10/Hexo%E8%AF%AD%E5%8F%A5/"/>
+    <id>http://yebingiscn.github.io/2020/09/10/Hexo%E8%AF%AD%E5%8F%A5/</id>
+    <published>2020-09-10T12:11:17.000Z</published>
+    <updated>2021-02-24T04:45:47.521Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>老是记不住hexo命令，总结一下。顺便试着用英语来写一下，顺便blog无法访问了，目前还搞不清楚什么原因，明明Github仓库里都有。I always forget the hexo commands. I will sum up them from this title.1.pwd                            //Return to the location file2.cd    Ps:(cd D:\\blog)             //jump to the file what you input3.hexo s                        //creat the local server to preview theme (local host 4000)4.hexo new (Ps: hexo new &quot;hello&quot;)    //Create a new article5.hexo d                        //hexo deploy6.hexo clean                    //Clear cache file7.hexo g                        //hexo generate8.git clone +address                //download theme neededIf you finished the blog, input these commands to your blog.hexo clean     //清除缓存文件 (db.json) 和已生成的静态文件 (public)</code></pre><p>        hexo g         //生成缓存和静态文件<br>        hexo d         //重新部署到服务器</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;老是记不住hexo命令，总结一下。顺便试着用英语来写一下，顺便blog无法访问了，目前还搞不清楚什么原因，明明Github仓库里都有。
+
+I always forget the hexo commands. I will sum up them from t</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>照片后的物理思考</title>
+    <link href="http://yebingiscn.github.io/2020/08/01/%E7%85%A7%E7%89%87%E5%90%8E%E7%9A%84%E7%89%A9%E7%90%86%E6%80%9D%E8%80%83/"/>
+    <id>http://yebingiscn.github.io/2020/08/01/%E7%85%A7%E7%89%87%E5%90%8E%E7%9A%84%E7%89%A9%E7%90%86%E6%80%9D%E8%80%83/</id>
+    <published>2020-08-01T04:01:19.000Z</published>
+    <updated>2020-11-20T16:00:16.900Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>我在光害最严重的广州城区用不可能的设备拍到了木星，上传到网上后引起了网友和同学的赞赏，但是真的拍到了木星了吗？首先我的设备是7x50倍的双筒望远镜，在广州城区配合三脚架他只能看到木星的卫星无法看到任何细节。为了实现拍到木星的目标，我还用了华为 Mate 30 Pro的5倍混合变焦（应该是由800万像素的豪威镜头负责）</code></pre><p>在经过多次尝试后我得到了一张球形的似乎可以分辨的出条纹的星球（灰色），结合Star walk2 木星角度基本正确。因此认为拍摄成功。在此之后我再次尝试了土星但是只能得到模糊的灰色球形物体，没有容易分辨的土星环。<br>但是有如下疑点<br>1、为什么木星没有颜色<br>2、这两个设备混合使用真的可以拍到原来不存在的木星吗（还放大了许多）<br>——————————-分割线————————————————-<br>经过了若干天的思考，我觉得我拍出来的可能是木星的虚像。即木星的光在望远镜中或CMOS（我倾向于前者）中发生反射产生了虚像，因此是灰色的，而在土星的拍摄中，因为土星的光亮不足，虚像难以辨别因此寻找难度大。在5倍变焦下根本没有足够的进光量。倒回来，在获得灰色的照片后，我进行了处理，在处理中失误的调节了白平衡导致条状带上色而其它区域由于是黑的所以不明显。所以所谓拍出木星可能只是一个阴差阳错的巧合</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;我在光害最严重的广州城区用不可能的设备拍到了木星，上传到网上后引起了网友和同学的赞赏，但是真的拍到了木星了吗？
+
+首先我的设备是7x50倍的双筒望远镜，在广州城区配合三脚架他只能看到木星的卫星无法看到任何细节。为了实现拍到木星的目标，我还用了华为 Mate </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C++课程设计学习笔记</title>
+    <link href="http://yebingiscn.github.io/2020/04/27/C-%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yebingiscn.github.io/2020/04/27/C-%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-04-27T13:28:39.000Z</published>
+    <updated>2020-11-20T15:59:39.367Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>对上个学期做得课程设计进行一个总结。概况：信管在读，其实知乎上对这个专业风评不太好，但我还是选了。我们的C语言（其实是 C++ 啦）64节课，加上程序设计16节课，只学到了类和文件读写，也没学派生类，挺可惜的，刚好只能做一个简单的系统。我看华农这个学期貌似也是做这个来当大作业。但很可惜的是，我的大多同学都是直接抄了老师的源代码，连注释都没有改。。。。。。答辩的时候老师都要被气死了。。。PS:我一直不喜欢部门的值班，因为我是唯一一个早上早起值班的，不过我发现了一本讲C++的教材，然后极大的帮助了我的课程设计。</code></pre><p>总结：<br>    我现在写代码，还是会C++和C混用，比如说 printf 和 cout 混用，然后头文件也是混用，不知道以后会不会被人吐槽。<br>    以下的可能比较初级。<br>1、验证码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#define N 5</span><br><span class="line">void passcode(char s[], int n)&#x2F;&#x2F;验证码模块 char s[]</span><br><span class="line">&#123;</span><br><span class="line">char str[] &#x3D; &quot;0123456789&quot;;</span><br><span class="line">int i, k, le;</span><br><span class="line">le &#x3D; strlen(str);</span><br><span class="line">srand(time(0));</span><br><span class="line">for (i &#x3D; 0; i &lt; n; i++)</span><br><span class="line">&#123;</span><br><span class="line">k &#x3D; rand() % le;</span><br><span class="line">s[i] &#x3D; str[k];</span><br><span class="line">&#125;</span><br><span class="line">s[i] &#x3D; &#39;\0&#39;;</span><br><span class="line">cout &lt;&lt; &quot;验证码&quot; &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">do</span><br><span class="line">&#123;</span><br><span class="line">passcode(code, N);</span><br><span class="line">cout &lt;&lt; &quot;您的网络可能不安全，为了您的网络安全⊙﹏⊙∥&quot; &lt;&lt; endl;</span><br><span class="line">cout &lt;&lt; &quot;请输入验证码&quot; &lt;&lt; endl;</span><br><span class="line">scanf(&quot;%s&quot;, str);</span><br><span class="line">system(&quot;cls&quot;);</span><br><span class="line">&#125; while (strcmp(code, str) !&#x3D; 0);</span><br></pre></td></tr></table></figure><pre><code>上面是验证码的两个框架，最上面是函数，rand()就是随机函数，这是系统自带的。验证码的位数是最上面的define N 5 决定的。</code></pre><p>2、调用系统图库<br>头文件需要加上这个：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">int system(const char* command);&#x2F;&#x2F;照片显示</span><br></pre></td></tr></table></figure><p>主程序上加上这个：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">system(&quot;mspaint money.jpg&quot;);&#x2F;&#x2F;显示照片，照片要和cpp文件放在一起,并且以money命名</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>mspaint就是微软画图软件，money.jpg就是我们要加的照片，在简单程序里和cpp文件放在一起就好了，打包好以后，照片就要和exe文件放在一起</p><p>3、跨函数跳转<br>主要是验证的时候会出现bug，用这个就可以跳转，不过不简洁，别人要找跳转去哪了要找半天。<br>头文件加这个：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#include &lt;setjmp.h&gt;</span><br></pre></td></tr></table></figure><p>然后还要加上这个：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">jmp_buf A;&#x2F;&#x2F;函数之间跳转</span><br></pre></td></tr></table></figure><p>要跳转的目的地加上这个：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">setjmp(A);&#x2F;&#x2F;跳转点</span><br></pre></td></tr></table></figure><p>跳转的起点加上这个：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">longjmp(A, 0);&#x2F;&#x2F;跳转点</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;对上个学期做得课程设计进行一个总结。
+
+概况：
+信管在读，其实知乎上对这个专业风评不太好，但我还是选了。我们的C语言（其实是 C++ 啦）64节课，加上程序设计16节课，只学到了类和文件读写，也没学派生类，挺可惜的，刚好只能做一个简单的系统。我看华农这个学期</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>整理文件时的一些感悟</title>
+    <link href="http://yebingiscn.github.io/2020/04/20/%E6%95%B4%E7%90%86%E6%96%87%E4%BB%B6%E6%97%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%84%9F%E6%82%9F/"/>
+    <id>http://yebingiscn.github.io/2020/04/20/%E6%95%B4%E7%90%86%E6%96%87%E4%BB%B6%E6%97%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%84%9F%E6%82%9F/</id>
+    <published>2020-04-20T12:15:01.000Z</published>
+    <updated>2020-11-20T16:00:26.106Z</updated>
+    
+    <content type="html"><![CDATA[<p>#感悟#<br>（1）<br>    今天把自己过去6年写的个人文档编辑了下，做了如下修改：<br>    1、全部统一格式<br>    2、换成了苹方字体        //苹方就是比什么等线、微软雅黑好看的多。<br>    3、修改了一些之前的标点符号错误还有其他一些错误<br>    个人文档其实类似日记，但是不是流水账，感觉更像是政论文章或者是报纸上的评论文章，过去6年写得都是学习、生活、社交关系之类的。原来的格式惨不忍睹，写得也不多，后来基本上每篇都有1000多字，语句更规范了些。还有就是我发现以前都是针对考试等单一事件发的评论，后来逐渐的变成各种总结，我觉得这种文章还是很好的，类似程序员学习文档，可以对自己进行反思，我还是会坚持写下去的。只可惜的是，里面写得教训、问题，后面还是有出现。这说明有些问题想象的比我们还要深。写得梦想那些也没有成真，看着热血沸腾的文章，有点悲伤。总有点哀其不幸，怒其不争的感觉。<br>    当然不会都是很糟糕的，毕竟糟糕的都拿上去批判，这叫做“幸存者偏差”。好的一般一笔带过。以前我高中在笔记本上（纸质个人文档）就经常批判自己哪里做的不好，“不可能这么巧的”、“人生三大错觉”。。。。。。想的与实际感受到的分裂，造成高三有一段时间挺抑郁的，后来才在网上看到说“过度的自我批判容易导致抑郁症”。把这种自我放大到国家，是不是也可以有这样的推论，假如我们只看到国家坏的，是不是日复一日的批判会导致人们觉得国家阴暗？我觉得，这就是人们不喜欢某个在疫情期间大放异彩的作家原因之一。因为不是人人都想变得抑郁和阴暗，成就和阴暗都看到眼里，这就是集体的力量，我的高中尤其是高三就是少了这种平衡。变成为了高考和疾病压力的宣泄点。</p><p>（2）佛山同化之路<br>    这几天又要写团员评议表，我高中也要写这个（好像记错了，是学期自我评议表？），我每次都写得很长，基本都是对上个学期进行总结，那个表我记得很清楚，表头还写着很古老的“南海市南海中学”（2002年南海市撤销变成南海区并入佛山），我问我丹灶的同桌“你知道这里的南海市是哪里吗？” “不知道，应该是哪里写错了吧”。我一个广州的都知道南海市的来历（其实是我妈在南海工作过，我家还曾经打算定居大沥），南海本地人却不知道，可是他每次去禅城等传统佛山地区都说“这个星期去不去佛山”，我高一刚刚来的时候觉得非常奇怪，为什么身在佛山还说要去佛山？后来才知道南海顺德人都不觉得自己是佛山人，车牌还是各自独立的“粤Y” “粤X”，有点像今天香港的情况。番禺同样是差不多时间并入广州的，可从来没有听说“在番禺去广州”或者说“我是从化人” “我是番禺人” ，我大学时甚至还有人说“你说你是广州的，该不会是从化那些的吧，那些不算广州”。由此可以看出，实力强的地区吞并弱的地区居民接受程度高，而实力弱的地区吞并相同的或者强的地区则没有这么这么高，甚至还有反弹，如果生活水平下降的话。<br>    我高三的时候看到报纸上说以后再也没有“粤Y”和“粤X”，统统都是佛山的“粤E”。佛山的同化之路迈出了第一步吧。有机会有灵感我再把这个扩写一下。    </p><p>//我现在还是不是很会用md写东西，也不会插图和插代码，所以写得很烂，以后会修改的</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#感悟#&lt;br&gt;（1）&lt;br&gt;    今天把自己过去6年写的个人文档编辑了下，做了如下修改：&lt;br&gt;    1、全部统一格式&lt;br&gt;    2、换成了苹方字体        //苹方就是比什么等线、微软雅黑好看的多。&lt;br&gt;    3、修改了一些之前的标点符号错误还有其他一</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My first post</title>
+    <link href="http://yebingiscn.github.io/2020/04/16/My-first-post/"/>
+    <id>http://yebingiscn.github.io/2020/04/16/My-first-post/</id>
+    <published>2020-04-16T13:05:47.000Z</published>
+    <updated>2020-04-27T13:27:07.907Z</updated>
+    
+    <content type="html"><![CDATA[<p>##<br>这是我的第一篇博客，估计是没有多少人看的，但是我会在这里发表我的见解和一些对知识的理解</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##&lt;br&gt;这是我的第一篇博客，估计是没有多少人看的，但是我会在这里发表我的见解和一些对知识的理解&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yebingiscn.github.io/2020/04/16/hello-world/"/>
+    <id>http://yebingiscn.github.io/2020/04/16/hello-world/</id>
+    <published>2020-04-16T12:59:25.932Z</published>
+    <updated>2020-11-20T15:59:52.132Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
