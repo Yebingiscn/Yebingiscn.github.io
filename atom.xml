@@ -6,7 +6,7 @@
   <link href="https://yebingiscn.github.io/atom.xml" rel="self"/>
   
   <link href="https://yebingiscn.github.io/"/>
-  <updated>2023-11-15T03:53:58.852Z</updated>
+  <updated>2023-12-07T07:03:00.517Z</updated>
   <id>https://yebingiscn.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何升级butterfly主题</title>
+    <link href="https://yebingiscn.github.io/2023/12/07/%E5%A6%82%E4%BD%95%E5%8D%87%E7%BA%A7butterfly%E4%B8%BB%E9%A2%98/"/>
+    <id>https://yebingiscn.github.io/2023/12/07/%E5%A6%82%E4%BD%95%E5%8D%87%E7%BA%A7butterfly%E4%B8%BB%E9%A2%98/</id>
+    <published>2023-12-07T06:28:11.000Z</published>
+    <updated>2023-12-07T07:03:00.517Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="提前备份主题的-config-yaml"><a href="#提前备份主题的-config-yaml" class="headerlink" title="提前备份主题的 _config.yaml"></a>提前备份主题的 _config.yaml</h1><blockquote><p>在 hexo 的根目錄創建一個文件 _config.butterfly.yml，並把主題目錄的 _config.yml 內容複製到 _config.butterfly.yml 去。( 注意: 複製的是主題的 _config.yml ，而不是 hexo 的 _config.yml)<br>&#x3D;&#x3D;注意： 不要把主題目錄的 _config.yml 刪掉&#x3D;&#x3D;<br>注意： 以後只需要在 _config.butterfly.yml 進行配置就行。<br>如果使用了 _config.butterfly.yml， 配置主題的 _config.yml 將不會有效果。</p></blockquote><p>引用自 Butterfly 官方 <a href="https://butterfly.js.org/posts/21cfbf15/">https://butterfly.js.org/posts/21cfbf15/</a></p><h1 id="升级-Hexo"><a href="#升级-Hexo" class="headerlink" title="升级 Hexo"></a>升级 Hexo</h1><blockquote><p>参考链接：<a href="https://blog.csdn.net/qq_33154343/article/details/108301374?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170192443016800222891371%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170192443016800222891371&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-108301374-null-null.142%5Ev96%5Econtrol&utm_term=%E5%8D%87%E7%BA%A7hexo&spm=1018.2226.3001.4187">https://blog.csdn.net/qq_33154343/article/details/108301374?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170192443016800222891371%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=170192443016800222891371&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-108301374-null-null.142^v96^control&amp;utm_term=%E5%8D%87%E7%BA%A7hexo&amp;spm=1018.2226.3001.4187</a></p></blockquote><h2 id="使用淘宝源的-cnpm-替换-npm"><a href="#使用淘宝源的-cnpm-替换-npm" class="headerlink" title="使用淘宝源的 cnpm 替换 npm"></a>使用淘宝源的 cnpm 替换 npm</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br><span class="line">cnpm install -g cnpm                 # 升级 npm</span><br><span class="line">cnpm cache clean -f                 # 清除 npm 缓存 (这步似乎执行不了)</span><br></pre></td></tr></table></figure><p>&#x3D;&#x3D;更新 hexo: 进入 blog 目录，执行如下命令&#x3D;&#x3D;</p><h2 id="更新-package-json-中的-hexo-及个插件版本"><a href="#更新-package-json-中的-hexo-及个插件版本" class="headerlink" title="更新 package.json 中的 hexo 及个插件版本"></a>更新 package.json 中的 hexo 及个插件版本</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g npm-check           # 检查之前安装的插件，都有哪些是可以升级的</span><br><span class="line">cnpm install -g npm-upgrade         # 升级系统中的插件</span><br><span class="line">npm-check</span><br><span class="line">npm-upgrade</span><br></pre></td></tr></table></figure><h2 id="更新-hexo-及所有插件"><a href="#更新-hexo-及所有插件" class="headerlink" title="更新 hexo 及所有插件"></a>更新 hexo 及所有插件</h2><p><code>cnpm update</code></p><h2 id="确认-hexo-已经更新"><a href="#确认-hexo-已经更新" class="headerlink" title="确认 hexo 已经更新"></a>确认 hexo 已经更新</h2><p><code>hexo -v</code></p><h1 id="升级-butterfly"><a href="#升级-butterfly" class="headerlink" title="升级 butterfly"></a>升级 butterfly</h1><h2 id="进入-butterfly-目录"><a href="#进入-butterfly-目录" class="headerlink" title="进入 butterfly 目录"></a>进入 butterfly 目录</h2><ol><li>首先，更新工作的状态树：<br><code>git add .</code></li><li>输入如下命令，将文件放在堆栈中，获取更新后，再弹栈：</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git stash</span><br><span class="line">git pull</span><br><span class="line">git stash pop</span><br></pre></td></tr></table></figure><h1 id="可能的问题"><a href="#可能的问题" class="headerlink" title="可能的问题"></a>可能的问题</h1><ol><li>提示 <code>Error: Cannot find module &#39;hexo-util&#39;</code><div class="note info disabled"><p>原因：缺少插件</p></div><div class="note success disabled"><p>解决：输入<code>npm install hexo-util --save</code></p></div></li><li>Git 部署时报错<div class="note info disabled"><p>原因：_config.yaml 需要合并以前的内容和新的内容</p></div><div class="note success disabled"><p>解决：打开 vs code 合并相关内容，&#x3D;&#x3D;注意不能有重复的&#x3D;&#x3D;</p></div></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;提前备份主题的-config-yaml&quot;&gt;&lt;a href=&quot;#提前备份主题的-config-yaml&quot; class=&quot;headerlink&quot; title=&quot;提前备份主题的 _config.yaml&quot;&gt;&lt;/a&gt;提前备份主题的 _config.yaml&lt;/h1&gt;&lt;bl</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>时间之外的往事</title>
@@ -424,27 +444,6 @@
     <summary type="html">&lt;pre&gt;&lt;code&gt;老是记不住hexo命令，总结一下。顺便试着用英语来写一下，顺便blog无法访问了，目前还搞不清楚什么原因，明明Github仓库里都有。
 
 I always forget the hexo commands. I will sum up them from t</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>照片背后的物理思考</title>
-    <link href="https://yebingiscn.github.io/2020/08/01/%E7%85%A7%E7%89%87%E8%83%8C%E5%90%8E%E7%9A%84%E7%89%A9%E7%90%86%E6%80%9D%E8%80%83/"/>
-    <id>https://yebingiscn.github.io/2020/08/01/%E7%85%A7%E7%89%87%E8%83%8C%E5%90%8E%E7%9A%84%E7%89%A9%E7%90%86%E6%80%9D%E8%80%83/</id>
-    <published>2020-08-01T04:01:19.000Z</published>
-    <updated>2022-08-18T11:45:24.911Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code>我在光害最严重的广州城区用不可能的设备拍到了木星，上传到网上后引起了网友和同学的赞赏，但是真的拍到了木星了吗？首先我的设备是7x50倍的双筒望远镜，在广州城区配合三脚架他只能看到木星的卫星无法看到任何细节。为了实现拍到木星的目标，我还用了华为 Mate 30 Pro的5倍混合变焦（应该是由800万像素的豪威镜头负责）</code></pre><h2 id="在经过多次尝试后我得到了一张球形的似乎可以分辨的出条纹的星球（灰色），结合Star-walk2-木星角度基本正确。因此认为拍摄成功。在此之后我再次尝试了土星但是只能得到模糊的灰色球形物体，没有容易分辨的土星环。但是有如下疑点-1-为什么木星没有颜色2-这两个设备混合使用真的可以拍到原来不存在的木星吗（还放大了许多）"><a href="#在经过多次尝试后我得到了一张球形的似乎可以分辨的出条纹的星球（灰色），结合Star-walk2-木星角度基本正确。因此认为拍摄成功。在此之后我再次尝试了土星但是只能得到模糊的灰色球形物体，没有容易分辨的土星环。但是有如下疑点-1-为什么木星没有颜色2-这两个设备混合使用真的可以拍到原来不存在的木星吗（还放大了许多）" class="headerlink" title="在经过多次尝试后我得到了一张球形的似乎可以分辨的出条纹的星球（灰色），结合Star walk2 木星角度基本正确。因此认为拍摄成功。在此之后我再次尝试了土星但是只能得到模糊的灰色球形物体，没有容易分辨的土星环。但是有如下疑点:1. 为什么木星没有颜色2. 这两个设备混合使用真的可以拍到原来不存在的木星吗（还放大了许多）"></a>在经过多次尝试后我得到了一张球形的似乎可以分辨的出条纹的星球（灰色），结合Star walk2 木星角度基本正确。因此认为拍摄成功。在此之后我再次尝试了土星但是只能得到模糊的灰色球形物体，没有容易分辨的土星环。<br>但是有如下疑点:<br>1. 为什么木星没有颜色<br>2. 这两个设备混合使用真的可以拍到原来不存在的木星吗（还放大了许多）</h2><p>经过了若干天的思考，我觉得我拍出来的可能是木星的虚像。即木星的光在望远镜中或CMOS（我倾向于前者）中发生反射产生了虚像，因此是灰色的，而在土星的拍摄中，因为土星的光亮不足，虚像难以辨别因此寻找难度大。在5倍变焦下根本没有足够的进光量。倒回来，在获得灰色的照片后，我进行了处理，在处理中失误的调节了白平衡导致条状带上色而其它区域由于是黑的所以不明显。所以所谓拍出木星可能只是一个阴差阳错的巧合</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;pre&gt;&lt;code&gt;我在光害最严重的广州城区用不可能的设备拍到了木星，上传到网上后引起了网友和同学的赞赏，但是真的拍到了木星了吗？
-首先我的设备是7x50倍的双筒望远镜，在广州城区配合三脚架他只能看到木星的卫星无法看到任何细节。为了实现拍到木星的目标，我还用了华为 Mate 3</summary>
       
     
     
