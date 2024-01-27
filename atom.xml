@@ -6,7 +6,7 @@
   <link href="https://yebingiscn.github.io/atom.xml" rel="self"/>
   
   <link href="https://yebingiscn.github.io/"/>
-  <updated>2023-12-07T13:03:14.716Z</updated>
+  <updated>2024-01-27T16:10:52.781Z</updated>
   <id>https://yebingiscn.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>疲惫与迷茫</title>
+    <link href="https://yebingiscn.github.io/2024/01/27/%E7%96%B2%E6%83%AB%E4%B8%8E%E8%BF%B7%E8%8C%AB/"/>
+    <id>https://yebingiscn.github.io/2024/01/27/%E7%96%B2%E6%83%AB%E4%B8%8E%E8%BF%B7%E8%8C%AB/</id>
+    <published>2024-01-27T15:53:40.000Z</published>
+    <updated>2024-01-27T16:10:52.781Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="疲惫"><a href="#疲惫" class="headerlink" title="疲惫"></a>疲惫</h1><p>今天是周六，这是进来第二周加班周六，也是第一周加周六日<br>很辛苦，这周只有一次6：30回家；今天导师很想留我下来，但是亲戚来了不少，还是说有事走了；9点的时候瞄了眼手机，导师还在线。唉，这个月加了10次到10点以后或者准确说11点以后。<br>最累的是回到家发现家人都睡了，或者是今天进到餐馆发现一桌人都吃完饭了。在江边写字楼看着是很高大上，只是从早到晚很苦逼。</p><h1 id="迷茫"><a href="#迷茫" class="headerlink" title="迷茫"></a>迷茫</h1><p>点点点有什么意义吗，感觉点一年什么都忘记了，听到他们说标签觉得恍如隔世，偶尔用一次SQL查次埋点感觉不得了，偶然间听到导师只会用最基础 <code>select *</code> ，不过导师确实卷业务能力也确实强。还是有很多要学的。<br>希望在职期间能把测试用例写好，然后能在技术上出现一些小贡献。</p><blockquote><p>后记：周六的时候难得回去了老房子，在中心广场看到一个人看着我，可惜戴着帽子<br>我没认出来是谁，我感觉她也没认出来。变故打断了太多。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;疲惫&quot;&gt;&lt;a href=&quot;#疲惫&quot; class=&quot;headerlink&quot; title=&quot;疲惫&quot;&gt;&lt;/a&gt;疲惫&lt;/h1&gt;&lt;p&gt;今天是周六，这是进来第二周加班周六，也是第一周加周六日&lt;br&gt;很辛苦，这周只有一次6：30回家；今天导师很想留我下来，但是亲戚来了不少，还是</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>如何升级butterfly主题</title>
@@ -424,28 +444,6 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;时间复杂度&lt;br&gt; 时间复杂度只学了一个for函数的，总的来说就是有几个for循环就是O(N)的几</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hexo命令</title>
-    <link href="https://yebingiscn.github.io/2020/09/10/Hexo%E8%AF%AD%E5%8F%A5/"/>
-    <id>https://yebingiscn.github.io/2020/09/10/Hexo%E8%AF%AD%E5%8F%A5/</id>
-    <published>2020-09-10T12:11:17.000Z</published>
-    <updated>2022-08-18T11:30:58.466Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code>老是记不住hexo命令，总结一下。顺便试着用英语来写一下，顺便blog无法访问了，目前还搞不清楚什么原因，明明Github仓库里都有。I always forget the hexo commands. I will sum up them from this title.</code></pre><ol><li><p>pwd&#x2F;&#x2F;Return to the location file</p></li><li><p>cdPs:(cd D:\blog) &#x2F;&#x2F;jump to the file what you input</p></li><li><p>hexo s&#x2F;&#x2F;creat the local server to preview theme (local host 4000)</p></li><li><p>hexo new (Ps: hexo new “hello”)&#x2F;&#x2F;Create a new article</p></li><li><p>hexo d&#x2F;&#x2F;hexo deploy</p></li><li><p>hexo clean&#x2F;&#x2F;Clear cache file</p></li><li><p>hexo g&#x2F;&#x2F;hexo generate</p></li><li><p>git clone +address&#x2F;&#x2F;download theme needed</p><p> If you finished the blog, input these commands to creat your blog.</p><ol><li>hexo clean &#x2F;&#x2F;清除缓存文件 (db.json) 和已生成的静态文件 (public)</li><li>hexo g &#x2F;&#x2F;生成缓存和静态文件</li><li>hexo d &#x2F;&#x2F;重新部署到服务器</li></ol></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;pre&gt;&lt;code&gt;老是记不住hexo命令，总结一下。顺便试着用英语来写一下，顺便blog无法访问了，目前还搞不清楚什么原因，明明Github仓库里都有。
-
-I always forget the hexo commands. I will sum up them from t</summary>
       
     
     
