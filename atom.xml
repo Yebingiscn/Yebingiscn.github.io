@@ -252,7 +252,7 @@
     <link href="https://yebingiscn.github.io/2022/08/13/Ak%E7%9A%84%E8%8E%B7%E5%8F%96%E6%96%B9%E6%B3%95/"/>
     <id>https://yebingiscn.github.io/2022/08/13/Ak%E7%9A%84%E8%8E%B7%E5%8F%96%E6%96%B9%E6%B3%95/</id>
     <published>2022-08-13T09:56:05.000Z</published>
-    <updated>2024-02-26T04:53:38.570Z</updated>
+    <updated>2024-02-26T05:04:58.381Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Ak-的获取方法"><a href="#Ak-的获取方法" class="headerlink" title="Ak 的获取方法"></a>Ak 的获取方法</h2><pre><code>最近在做百度地图API相关的项目，需要用到获取安卓的AK，简单来说就是一种密钥。但是获取的时候踩了些坑，在这里书写下怎么避免。</code></pre><ul><li>首先要注意自己的.android 路径，像我的其实放在 D 盘而不是和百度给的实例一样放在 C 盘</li><li>要带上 jdk 路径和<code>-list -v -keystore debug.keystore</code>。这里如果按照百度上来则是**巨坑</li><li>密码是 android</li></ul>]]></content>
     
@@ -265,7 +265,7 @@
     
     
     
-    <category term="下也许" scheme="https://yebingiscn.github.io/tags/%E4%B8%8B%E4%B9%9F%E8%AE%B8/"/>
+    <category term="学习" scheme="https://yebingiscn.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
