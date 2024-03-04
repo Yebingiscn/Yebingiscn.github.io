@@ -1,3 +1,6 @@
+https://yebingiscn.github.io/2024/03/04/%E4%BD%BF%E7%94%A8Windows%E6%93%8D%E4%BD%9CiPhone/
+https://yebingiscn.github.io/2024/03/04/Windows%E4%B8%8B%E4%BD%BF%E7%94%A8VM%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85mac/
+https://yebingiscn.github.io/2024/01/28/%E6%A0%87%E7%AD%BE%E7%94%9F%E4%BA%A7%E5%9B%9E%E5%BD%92%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/
 https://yebingiscn.github.io/2023/12/07/%E5%A6%82%E4%BD%95%E5%8D%87%E7%BA%A7butterfly%E4%B8%BB%E9%A2%98/
 https://yebingiscn.github.io/2022/08/13/Ak%E7%9A%84%E8%8E%B7%E5%8F%96%E6%96%B9%E6%B3%95/
 https://yebingiscn.github.io/2020/04/27/C++%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
@@ -10,7 +13,6 @@ https://yebingiscn.github.io/2021/10/14/HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0
 https://yebingiscn.github.io/2021/11/03/Sevlet%E8%B8%A9%E5%9D%91%E4%B8%8E%E8%8C%83%E5%BC%8F%E7%9A%84%E7%90%86%E8%A7%A3/
 https://yebingiscn.github.io/2021/10/10/HTML%E4%B8%ADtextArea%E7%94%A8%E6%B3%95%E4%B8%8E%E4%BD%93%E6%B5%8B/
 https://yebingiscn.github.io/2022/09/05/%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/
-https://yebingiscn.github.io/2024/01/28/%E6%A0%87%E7%AD%BE%E7%94%9F%E4%BA%A7%E5%9B%9E%E5%BD%92%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/
 https://yebingiscn.github.io/2021/09/11/%E8%B8%A9%E5%9D%91%E8%AE%B0/
 https://yebingiscn.github.io/2020/04/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/
 https://yebingiscn.github.io/2024/01/27/%E7%96%B2%E6%83%AB%E4%B8%8E%E8%BF%B7%E8%8C%AB/
